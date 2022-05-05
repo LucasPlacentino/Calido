@@ -11,12 +11,7 @@ A *Make it smart with Nordic Thingy:91 (Electromaker.io)* contest project.
 Calido was built to monitor and control a house temperature, humidity and overall air quality and its heating system, to control other smart-home devices and to notify the user.
 
 ## Set up
-Set up your wifi SSID and password in Calido's settings.
-
-To access Calido, go to its webpage via its local ip adress (probably something like `https://192.168.*.***/`, check your router's connected devices to find it), or its local domain adress (if you configured it in your local DNS server like Pi-Hole).
-
-## Details
-The LTE connectivity of the Thingy:91 allows Calido to still send data to the user even if the home internet is not working.
+...WIP...
 
 
 ## UI
