@@ -10,10 +10,17 @@ A *Make it smart with Nordic Thingy:91 (Electromaker.io)* contest project.
 ## Use
 Calido was built to monitor and control a house temperature, humidity and overall air quality and its heating system, to control other smart-home devices and to notify the user.
 
+It can send data via MQTT to Home Assistant for user monitoring and automations.
+
+Data can be sent to Edge impulse to process it, it could for example examine vibrations data to predict earthquakes.
+
 ## Set up
-Have your MQTT Broker, ... WIP ...
+Have your MQTT Broker, *... WIP ...*
+
+Connect Edge impulse *... WIP ...*
 
 
 ## UI
 <img src="https://user-images.githubusercontent.com/23436953/166644193-d2915bdf-1988-400b-9aa1-ebb900e805da.png" alt="Calido UI" width="300">
 
+*... WIP ...*
