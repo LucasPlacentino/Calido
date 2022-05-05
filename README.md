@@ -11,7 +11,7 @@ A *Make it smart with Nordic Thingy:91 (Electromaker.io)* contest project.
 Calido was built to monitor and control a house temperature, humidity and overall air quality and its heating system, to control other smart-home devices and to notify the user.
 
 ## Set up
-...WIP...
+Have your MQTT Broker, ... WIP ...
 
 
 ## UI
