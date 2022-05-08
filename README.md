@@ -8,15 +8,15 @@ Project can be found on [here (Electromaker.io)](404).
 A *Make it smart with Nordic Thingy:91 (Electromaker.io)* contest project.
 
 ## Use
-Calido was built to monitor and control a house temperature, humidity, vibrations and overall air quality and its heating system, to control other smart-home devices and to notify the user.
+Calido was built to monitor and control a house temperature, humidity, vibrations, overall air quality and its heating system, to control other smart-home devices and to notify the user.
 
 It can send data via MQTT to Home Assistant for user monitoring and automations.
 
-Calido can also use its BLE to fetch data from external sensors.
+Calido can also use its BLE to fetch data from various external sensors.
 
-Calido can send signal via its GPIOs to relays, to turn on and off home heating and cooling.
+Calido can send signal via its GPIOs to relays, for example to turn on and off home heating and cooling.
 
-Data can be sent to Edge Impulse to process it, it could for example be trained with vibrations data to predict earthquakes.
+Data can be sent to Edge Impulse to process it, it could for example be trained with vibrations data to predict earthquakes. This data could be massively crowdsourced to help regions or countries better predict and prevent future natural disasters.
 
 ## Set up
 Have your MQTT Broker ... WIP ...
