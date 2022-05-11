@@ -29,9 +29,13 @@ Data can be sent to Edge Impulse to process it, it could for example be trained 
 2. Put your included iBasis SIM card in your Thingy:91, and register it in nRF Cloud ([instructions here](https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_thingy91_gsg.html#activating-the-ibasis-sim-card)).  
 <img src="https://user-images.githubusercontent.com/23436953/167595594-336eebea-66d2-4c8c-8ea5-b52606a671d2.JPG" alt="nRF Cloud SIM card registering" width="500">
 
-3. Have your MQTT Broker up and linked to HomeAssistant *... WIP ...*  
+3. Build the firmware.
 
-3. Connect Edge Impulse [docs.edgeimpulse.com/nordic-semi-thingy91](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/nordic-semi-thingy91) *... WIP ...*  
+4. Flash it onto your Thingy:91.
+
+5. Have your MQTT Broker up and linked to HomeAssistant *... WIP ...*  
+
+6. Connect Edge Impulse [docs.edgeimpulse.com/nordic-semi-thingy91](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/nordic-semi-thingy91) *... WIP ...*  
 Get the Edge Impulse project at [Calido's EI project page](https://studio.edgeimpulse.com/public/104522/latest).  
 <img src="https://user-images.githubusercontent.com/23436953/167595648-7dbdf51b-cb6a-4e83-b741-d9edbbb47db1.JPG" alt="Calido's Edge Impulse project page" width="800"> 
 
