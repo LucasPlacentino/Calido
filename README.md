@@ -1,7 +1,6 @@
 <img src="https://user-images.githubusercontent.com/23436953/166644338-278662d5-1cc5-4bfb-ad64-866e87dd789a.png" alt="Calido" width="300"> 
 
 # Calido - Open Smart Thermostat and Smart Home Controller based on a Nordic Semiconductor Thingy:91
-### *STILL A WORK IN PROGRESS*
 
 Project can be found [here (Electromaker.io)](404).
 
@@ -33,9 +32,9 @@ Data can be sent to Edge Impulse to process it, it could for example be trained 
 
 4. Flash it onto your Thingy:91.
 
-5. Have your MQTT Broker up and linked to HomeAssistant *... WIP ...*  
+5. Have your MQTT Broker up and linked to HomeAssistant  
 
-6. Connect Edge Impulse [docs.edgeimpulse.com/nordic-semi-thingy91](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/nordic-semi-thingy91) *... WIP ...*  
+6. Connect Edge Impulse [docs.edgeimpulse.com/nordic-semi-thingy91](https://docs.edgeimpulse.com/docs/development-platforms/officially-supported-mcu-targets/nordic-semi-thingy91)  
 Get the Edge Impulse project at [Calido's EI project page](https://studio.edgeimpulse.com/public/104522/latest).  
 <img src="https://user-images.githubusercontent.com/23436953/167595648-7dbdf51b-cb6a-4e83-b741-d9edbbb47db1.JPG" alt="Calido's Edge Impulse project page" width="800"> 
 
@@ -48,8 +47,6 @@ Please be welcome to contribute [here](https://github.com/LucasPlacentino/Calido
 ## Details
 ### UI
 <img src="https://user-images.githubusercontent.com/23436953/166644193-d2915bdf-1988-400b-9aa1-ebb900e805da.png" alt="Calido UI" width="300">
-
-*... WIP ...*
 
 ----------------------
 
