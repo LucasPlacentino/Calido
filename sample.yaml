@@ -1,0 +1,79 @@
+sample:
+  name: Asset Tracker v2 Application
+common:
+  integration_platforms:
+    - thingy91_nrf9160_ns
+tests:
+  applications.asset_tracker_v2.nrf_cloud:
+    build_only: true
+    platform_allow: thingy91_nrf9160_ns
+    tags: ci_build
+  applications.asset_tracker_v2.nrf_cloud-pgps:
+    build_only: true
+    platform_allow: 
+    extra_args: OVERLAY_CONFIG=overlay-pgps.conf
+    tags: ci_build
+  applications.asset_tracker_v2.aws:
+    build_only: true
+    platform_allow: thingy91_nrf9160_ns
+    extra_configs:
+      - CONFIG_AWS_IOT_BROKER_HOST_NAME="example-hostname.aws.com"
+    extra_args: OVERLAY_CONFIG="overlay-aws.conf"
+    tags: ci_build
+  applications.asset_tracker_v2.aws-pgps:
+    build_only: true
+    platform_allow: thingy91_nrf9160_ns
+    extra_configs:
+      - CONFIG_AWS_IOT_BROKER_HOST_NAME="example-hostname.aws.com"
+    extra_args: OVERLAY_CONFIG="overlay-aws.conf;overlay-pgps.conf"
+    tags: ci_build
+  applications.asset_tracker_v2.aws-all:
+    build_only: true
+    platform_allow: thingy91_nrf9160_ns
+    extra_configs:
+      - CONFIG_AWS_IOT_BROKER_HOST_NAME="example-hostname.aws.com"
+      - CONFIG_MEMFAULT_NCS_PROJECT_KEY="PROJECTKEY"
+    extra_args: OVERLAY_CONFIG="overlay-aws.conf;overlay-pgps.conf;overlay-debug.conf;overlay-memfault.conf"
+    tags: ci_build
+  applications.asset_tracker_v2.azure:
+    build_only: true
+    platform_allow: thingy91_nrf9160_ns
+    extra_configs:
+      - CONFIG_AZURE_IOT_HUB_DPS_HOSTNAME="global.azure-devices-provisioning.net"
+      - CONFIG_AZURE_IOT_HUB_DPS_ID_SCOPE="IDSCOPE"
+    extra_args: OVERLAY_CONFIG="overlay-azure.conf"
+    tags: ci_build
+  applications.asset_tracker_v2.debug:
+    build_only: true
+    build_on_all: true
+    platform_allow: thingy91_nrf9160_ns
+    extra_args: OVERLAY_CONFIG=overlay-debug.conf
+    tags: ci_build
+  applications.asset_tracker_v2.debug-memfault:
+    build_only: true
+    build_on_all: true
+    platform_allow: thingy91_nrf9160_ns
+    extra_configs:
+      - CONFIG_MEMFAULT_NCS_PROJECT_KEY="PROJECTKEY"
+    extra_args: OVERLAY_CONFIG="overlay-debug.conf;overlay-memfault.conf"
+    tags: ci_build
+  applications.asset_tracker_v2.memfault:
+    build_only: true
+    build_on_all: true
+    platform_allow: thingy91_nrf9160_ns
+    extra_configs:
+      - CONFIG_MEMFAULT_NCS_PROJECT_KEY="PROJECTKEY"
+    extra_args: OVERLAY_CONFIG=overlay-memfault.conf
+    tags: ci_build
+  applications.asset_tracker_v2.low-power:
+    build_only: true
+    build_on_all: true
+    platform_allow: thingy91_nrf9160_ns
+    extra_args: OVERLAY_CONFIG=overlay-low-power.conf
+    tags: ci_build
+  applications.asset_tracker_v2.carrier:
+    build_only: true
+    build_on_all: true
+    platform_allow: thingy91_nrf9160_ns
+    extra_args: OVERLAY_CONFIG=overlay-carrier.conf
+    tags: ci_build
