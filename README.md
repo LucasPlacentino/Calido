@@ -18,6 +18,8 @@ Calido can also use its BLE to fetch data from various external sensors.
 
 Calido can send signal via its GPIOs to relays, for example to turn on and off home heating and cooling.
 
+TinyML can be run on the device to learn and later predict the user's preferred home teperature based on time of day and outside climate.
+
 Data can be sent to Edge Impulse to process it, it could for example be trained with vibrations data to predict earthquakes. This data could be massively crowdsourced in high seismic activity areas to help those regions or countries better predict and prevent future natural disasters.
 
 ## Set up
