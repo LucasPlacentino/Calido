@@ -2,7 +2,7 @@
 
 # Calido - Open Smart Thermostat and Smart Home Controller based on a Nordic Semiconductor Thingy:91
 
-Project can be found [here (Electromaker.io)](404).
+**Project can be found [here (Electromaker.io)](https://www.electromaker.io/project/view/calido-open-source-smart-thermostat-and-home-controller).**
 
 A *Make it smart with Nordic Thingy:91 (Electromaker.io)* contest project.
 
